@@ -1,5 +1,6 @@
 import fitz  # PyMuPDF
 import spacy
+import streamlit as st
 # from langchain.chat_models import ChatOpenAI
 # from langchain_openai import ChatOpenAI
 from langchain_huggingface import HuggingFaceHub
@@ -23,7 +24,8 @@ def extract_entities(text):
 # Initialize LangChain LLM
 # llm = ChatOpenAI(model_name="gpt-4", openai_api_key="YOUR_OPENAI_KEY")
 llm = HuggingFaceHub(
-    repo_id="mistralai/Mistral-7B-Instruct",  # Free Hugging Face model
+    repo_id="mistralai/Mistral-7B-Instruct",
+    huggingfacehub_api_token=st.secrets["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"],
     model_kwargs={"temperature": 0.7, "max_length": 500}
 )
 
