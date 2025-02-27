@@ -1,7 +1,7 @@
 import fitz  # PyMuPDF
 import spacy
 # from langchain.chat_models import ChatOpenAI
-from langchain_openai import ChatOpenAI
+# from langchain_openai import ChatOpenAI
 from langchain_huggingface import HuggingFaceHub
 
 from langchain.prompts import PromptTemplate
