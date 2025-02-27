@@ -1,0 +1,10 @@
+streamlit
+tensorflow
+transformers
+langchain
+numpy
+pandas
+spacy
+pymupdf
+openai
+langchain-huggingface
