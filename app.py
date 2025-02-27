@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from admin import extract_text_from_pdf,extract_entities,analyze_fit
+# from admin import extract_text_from_pdf,extract_entities,analyze_fit
 
 
 # Streamlit UI
