@@ -39,16 +39,3 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Assist in the collection processing and management of clinical data to ensure accuracy and compliance.
-# Utilize Generative AI techniques to enhance data processing and analysis workflows.
-# Collaborate with cross-functional teams to support research and development activities.
-# Ensure timely and accurate PV case processing in accordance with regulatory requirements.
-# Provide support in the preparation and submission of regulatory documents.
-# Monitor and track data quality issues and implement corrective actions as needed.
-# Conduct data validation and verification to maintain data integrity.
-# Assist in the development and maintenance of standard operating procedures.
-# Participate in training sessions to stay updated with the latest industry trends and technologies.
-# Support the implementation of process improvements to enhance efficiency and productivity.
-# Communicate effectively with team members and stakeholders to ensure project goals are met.
-# Contribute to the development of innovative solutions to improve data management processes.
-# Maintain confidentiality and security of sensitive information.
