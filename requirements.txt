@@ -8,3 +8,4 @@ spacy
 pymupdf
 openai
 langchain-huggingface
+langchain-community
