@@ -8,7 +8,14 @@ from langchain.prompts import PromptTemplate
 api_key = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 
 # Load NLP model
-nlp = spacy.load("en_core_web_sm")
+def load_spacy_model(model_name):
+    try:
+        return spacy.load(model_name)
+    except OSError:
+        subprocess.run(["python", "-m", "spacy", "download", model_name])
+        return spacy.load(model_name)
+nlp = load_spacy_model("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
 
 # Function to extract text from PDF
 # def extract_text_from_pdf(pdf_path):
