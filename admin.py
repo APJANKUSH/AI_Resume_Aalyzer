@@ -1,6 +1,7 @@
 import fitz  # PyMuPDF
 import spacy
 import streamlit as st
+import subprocess
 from langchain_community.llms import HuggingFaceHub
 from langchain.prompts import PromptTemplate
 
