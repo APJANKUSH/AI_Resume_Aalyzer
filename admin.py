@@ -29,7 +29,8 @@ def extract_entities(text):
 # Initialize LangChain LLM
 llm = HuggingFaceHub(
     # repo_id="meta-llama/Llama-2-7b-chat-hf",
-    repo_id="google/flan-t5-large",
+    repo_id = "declare-lab/flan-alpaca-base",
+    # repo_id="google/flan-t5-large",
     huggingfacehub_api_token=api_key,
     model_kwargs={"temperature": 0.7, "max_length": 512},
     task="text2text-generation"
